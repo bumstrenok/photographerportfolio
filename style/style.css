@@ -541,6 +541,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 66px;
+  flex-wrap: wrap;
 }
 .feedback-item {
   flex: 0 0 45%;
@@ -613,6 +614,7 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
 }
 @media (max-width: 850px) {
   .adventeges-item {

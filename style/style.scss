@@ -519,6 +519,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 66px;
+    flex-wrap: wrap;
     &-item {
         flex: 0 0 45%;
         max-width: 45%;
@@ -586,6 +587,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
     &-item {
         @media (max-width:850px) {
             flex-basis: 50%;
